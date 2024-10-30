@@ -23,9 +23,12 @@ export default function Accordion({ title, content }: props) {
     <article className="question">
       <header className="question__header">
         <h2 className="question__title">{title}</h2>
-        <button onClick={toggleAccordion} className="question__button">
+        <button
+          onClick={toggleAccordion}
+          className="question__button"
+          aria-label="expand"
+        >
           <img src={icon} alt="" width={25} height={25} />
-          <span className="visually-hidden">expand</span>
         </button>
       </header>
       <p

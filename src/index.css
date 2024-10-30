@@ -101,10 +101,6 @@ main {
   transition: max-height 0.3s ease-in-out;
 }
 
-.visually-hidden {
-  visibility: hidden;
-}
-
 @media screen and (min-width: 768px) {
   .faq {
     max-width: 600px;
