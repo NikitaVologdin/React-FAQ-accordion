@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Work Sans";
+  src: url("/assets/fonts/public/assets/fonts/WorkSans-Italic-VariableFont_wght.ttf")
+      format("ttf"),
+    url("/assets/fonts/public/assets/fonts/WorkSans-VariableFont_wght.ttf")
+      format("ttf");
+  font-weight: 400, 600, 700;
+}
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --light-pink: hsl(275, 100%, 97%);
+  --grayish-purple: hsl(292, 16%, 49%);
+  --dark-purple: hsl(292, 42%, 14%);
+
+  font-family: Work Sans, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
