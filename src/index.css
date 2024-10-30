@@ -111,6 +111,14 @@ main {
     gap: 24px;
   }
 
+  .faq__questions {
+    margin-top: 32px;
+  }
+
+  .header__title {
+    font-size: 56px;
+  }
+
   .faq__header img {
     width: 40px;
     height: 40px;
