@@ -24,7 +24,8 @@ export default function Accordion({ title, content }: props) {
       <header className="question__header">
         <h2 className="question__title">{title}</h2>
         <button onClick={toggleAccordion} className="question__button">
-          <img src={icon} alt="" width={24.38} height={24.38} />
+          <img src={icon} alt="" width={25} height={25} />
+          <span className="visually-hidden">expand</span>
         </button>
       </header>
       <p

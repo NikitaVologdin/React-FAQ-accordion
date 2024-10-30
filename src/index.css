@@ -135,4 +135,8 @@ main {
   .question__answer {
     font-size: 16px;
   }
+
+  .visually-hidden {
+    visibility: hidden;
+  }
 }
